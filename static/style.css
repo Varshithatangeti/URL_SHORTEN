@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #12273e, #471010); /* Blue to Red Gradient */
+    background: linear-gradient(135deg, #0b1b2c, #5c1010); /* Blue to Red Gradient */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -38,12 +38,17 @@ body {
 /* Heading */
 h2 {
     font-size: 3rem;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(135deg, #b027ef, #e62e04); /* Violet to Red Gradient */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: slideIn 1s ease-in-out;
+    
+    /* background:white; Violet to Red Gradient */
+    /* -webkit-background-clip: text; Clips the background to the text
+    -webkit-text-fill-color: transparent; Makes the text transparent so the gradient shows */
+    text-align: center;
+    /* display: inline-block; Ensures gradient applies properly */
 }
+
+
 
 
 /* Form Styling */
@@ -81,9 +86,10 @@ button:hover {
 a {
     display: block;
     margin-top: 20px;
-    font-size: 1.5rem;
-    color:white;
+    font-size: 18px;
+    color: white;
     text-decoration: none;
+    text-shadow:text-decoration:underline;
 }
 
 a:hover {

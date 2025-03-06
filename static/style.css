@@ -13,7 +13,6 @@ body {
     position: relative;
 }
 
-
 /* Paragraph at the Top Middle */
 .top-text {
     position: absolute;
@@ -40,16 +39,8 @@ h2 {
     font-size: 3rem;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    
-    /* background:white; Violet to Red Gradient */
-    /* -webkit-background-clip: text; Clips the background to the text
-    -webkit-text-fill-color: transparent; Makes the text transparent so the gradient shows */
     text-align: center;
-    /* display: inline-block; Ensures gradient applies properly */
 }
-
-
-
 
 /* Form Styling */
 form {
@@ -88,12 +79,7 @@ a {
     margin-top: 20px;
     font-size: 18px;
     color: white;
-    text-decoration: none;
-    text-shadow:text-decoration:underline;
-}
-
-a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Fixed syntax */
 }
 
 /* Animations */
